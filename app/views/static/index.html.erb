@@ -1,1 +1,7 @@
 <%= react_component 'App' %>
+
+<div id="locationField">
+  <input class = "controls" id="autocomplete" placeholder="Enter your address" type="text"></input>
+</div>
+
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC4lGX8l161b6OS_aa6E-x3Z_VNuvYfHkY&libraries=places&callback=initAutocomplete"> </script>
