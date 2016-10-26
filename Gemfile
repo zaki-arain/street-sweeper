@@ -17,6 +17,7 @@ gem 'coffee-rails', '~> 4.2'
 # gem 'therubyracer', platforms: :ruby
 
 gem 'react-rails'
+gem 'geocoder'
 
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
