@@ -13,3 +13,10 @@ deploy:
   provider: heroku
   app: chi-sweeper
   api_key: ee89369e-6764-412b-9577-181e70599c5e
+notifications:
+  email:
+    recipients:
+      - z.arain@gmail.com
+      - alexbills1991@gmail.com
+    on_success: never
+    on_failure: always
