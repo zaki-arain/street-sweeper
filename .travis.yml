@@ -1,0 +1,15 @@
+language: ruby
+rvm:
+- 2.3.1
+env:
+- DB=postgresql
+script:
+- bundle exec rspec
+before_script:
+- rails db:create RAILS_ENV=test
+- rails db:migrate
+bundler_args: "--binstubs=./bundler_stubs"
+deploy:
+  provider: heroku
+  app: chi-sweeper
+  api_key: ee89369e-6764-412b-9577-181e70599c5e
