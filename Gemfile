@@ -18,6 +18,7 @@ gem 'coffee-rails', '~> 4.2'
 
 gem 'react-rails'
 gem 'geocoder'
+gem 'rspec'
 
 gem 'rack', '~> 2.0.1'
 
@@ -35,6 +36,7 @@ gem 'jbuilder', '~> 2.5'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
+  gem 'rspec'
   gem 'byebug', platform: :mri
 end
 
